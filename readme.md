@@ -1,6 +1,6 @@
 # Blackhole 2D 
 
-demo: https://space-realms.github.io/BlackHole/
+demo: https://space-realms.github.io/Blackhole-2D-game/
 
 
 
