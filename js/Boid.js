@@ -24,13 +24,13 @@ class Boid {
 
 
     let names = [
-      'hanna', 'mona', 'cutie',
-      'sweety', 'sofia', 'rose',
-      'laisy', 'daisy', 'mia',
-      'joe', 'jim', 'kim',
-      'keo', 'shaun', 'morgan',
-      'jery', 'tom', 'anu',
-      'brian', 'ninja', 'daniel'
+      'space', 'realms',
+'space', 'realms',
+'space', 'realms',
+'space', 'realms',
+'space', 'realms',
+'space', 'realms',
+      
     ];
 
     this.name = names[floor(random(names.length))];
