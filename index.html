@@ -70,6 +70,26 @@
       color: rgba(17, 36, 240, 0.925);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.btn {
+
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: green
+}
+
+.danger:hover {
+  background: #03fca9;
+  color: white;
+}
   </style>
 </head>
 
@@ -84,9 +104,24 @@
 <span>Use Arrow Keys To Control Your Ship. Follow </span>
 	  
 	  <span><a href="https://space-realms.github.io/">@Space-Realms</a></span>
-    
-
-<br>
+   <span> <audio id="audio" src="music.mp3" autoplay="false" ></audio>
+	  <button  class="btn danger" onclick="playSound()">Music</button>
+    <script>
+	var x=false;
+    function playSound() {
+          var sound = document.getElementById("audio");
+		  if(x==true){
+		  sound.pause();
+		  x=false;
+		  }
+		  else{
+		   sound.play();
+		   x=true;
+		  }
+         
+		
+      }
+    </script></span>
     
     
   </div>
